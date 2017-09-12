@@ -90,7 +90,7 @@ public class Student implements Comparable {
 		fullname=s.getFullName();
 		birthDate=s.getBirthDate();
 		avgMark=s.getAvgMark();*/
-		Student s=new Student(1,"Revanth Thati","1997-09-25",84.46);
+		//Student s=new Student(1,"Revanth Thati","1997-09-25",84.46);
 	}
 	
 	

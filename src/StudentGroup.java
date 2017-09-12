@@ -1,5 +1,5 @@
 import java.util.Date;
-
+import java.util.*;
 /**
  * A fix-sized array of students
  * array length should always be equal to the number of stored elements
@@ -26,7 +26,11 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getStudents() {
 		// Add your implementation here
-		return null;
+		Scanner sc=new Scanner(System.in);
+		if(students.length!=0)
+			return students;
+		else
+			return null;
 	}
 
 	@Override

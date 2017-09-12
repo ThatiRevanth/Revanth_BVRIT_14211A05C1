@@ -35,7 +35,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudents(Student[] students) {	
 		// Add your implementation here
-		try
+		/*try
 		{
 			if(students==null)
 				throw new IllegalArgumentException("NO INDEX");
@@ -43,7 +43,7 @@ public class StudentGroup implements StudentArrayOperation {
 		catch(IllegalArgumentException e)
 		{
 			System.out.println(e.getMessage());
-		}
+		}*/
 	}
 
 	@Override

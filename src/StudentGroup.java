@@ -68,7 +68,7 @@ public class StudentGroup implements StudentArrayOperation {
 		}
 		try
 		{
-			if(index<0 || index>=students.length)
+			if(index<0||index>=students.length)
 			{
 				throw new IllegalArgumentException("NO INDEX");
 			}
@@ -97,7 +97,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void remove(int index) {
 		// Add your implementation here
-		try{
+		/*try{
 			if(index<0 || index>=students.length)
 				throw new IllegalArgumentException("Illegal Argument");
 			else
@@ -112,7 +112,7 @@ public class StudentGroup implements StudentArrayOperation {
 		catch(IllegalArgumentException e)
 		{
 			System.out.println(e.getMessage());
-		}
+		}*/
 	}
 
 	@Override

@@ -1,5 +1,4 @@
 import java.util.Date;
-
 /**
  * Class that stores information about the concrete student
  * 
@@ -31,7 +30,8 @@ public class Student implements Comparable {
 	 */
 	private double avgMark;
 
-	public Student(int id, String fullName, Date birthDate, double avgMark) {
+	public Student(int id, String fullName, Date birthDate, double avgMark)
+	{
 		this.id = id;
 		this.fullName = fullName;
 		this.birthDate = birthDate;
@@ -78,6 +78,19 @@ public class Student implements Comparable {
 	@Override
 	public boolean equals(Object obj) {
 		return super.equals(obj);
+	}
+	public static void main(String args[])
+	{
+		/*Student s=new Student();
+		setId(1);
+		setFullName("Thati Revanth");
+		setBirthDate("1997-09-25");
+		setAvgMark(84.64);
+		id=s.getId();
+		fullname=s.getFullName();
+		birthDate=s.getBirthDate();
+		avgMark=s.getAvgMark();*/
+		Student s=new Student(1,"Revanth Thati","1997-09-25",84.46);
 	}
 	
 	

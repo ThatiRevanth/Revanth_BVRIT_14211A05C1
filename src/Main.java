@@ -16,7 +16,7 @@ public class Main {
 		//compilation problems before to submit
 		int n=5;
 		System.out.println(n);
-		Main m=new Main(4,"Xyz");
+		Main m=new Main(4,"XYZ");
 	}
 
 }

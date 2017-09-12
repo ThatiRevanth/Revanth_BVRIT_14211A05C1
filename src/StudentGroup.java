@@ -72,7 +72,7 @@ public class StudentGroup implements StudentArrayOperation {
 				throw new IllegalArgumentException("Illegal Argument");
 			else
 			{
-				for(int i=index;i<=students.length;i++)
+				for(int i=index;i<students.length;i++)
 				{
 					 students[i]=students[i+1];
 				}

@@ -35,8 +35,15 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudents(Student[] students) {	
 		// Add your implementation here
-		if(students==null)
-			throw new IllegalArgumentException("Students is NULL");
+		try
+		{
+			if(students==null)
+				throw new IllegalArgumentException("Students is NULL");
+		}
+		catch(IllegalArgumentException e)
+		{
+			System.out.println(e.getMessage());
+		}
 	}
 
 	@Override
